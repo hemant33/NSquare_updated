@@ -662,7 +662,7 @@ body, .banner-area,
 }
 
 .banner-area .item h1 {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -702,7 +702,7 @@ body, .banner-area,
 .banner-area .carousel.slide .item .content h1 {
   font-weight: 700;
   letter-spacing: 0;
-  margin-bottom: 20px; line-height: 80px;
+  margin-bottom: 20px; line-height: 55px;
 }
 
 .banner-area .carousel.slide .carousel-inner.text-uppercase .item .content h1 {
@@ -3337,15 +3337,18 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
   vertical-align: middle;
   z-index: 1;
 }
-.feature_inner { background-color: #f6961e; color: #fff; padding: 40px 30px 20px;
-    font-size: 36px;
-    line-height: 42px;
+.feature_inner {     
+    background-color: #f6961e;
+    color: #fff;
+    padding: 41px 30px 41px;
+    font-size: 26px;
+    line-height: 40px;
     font-weight: 500;
 }
 .feature_inner_text{ padding: 40px 50px;
     color: #000;
-    font-size: 24px;
-    line-height: 36px;font-weight: 500; }
+    font-size: 18px;
+    line-height: 30px;font-weight: 500; }
 .feature_inner .focus_text{ font-size: 50px;font-weight: 600;}
 .features-items .col-md-4:last-child {
   border: medium none;
