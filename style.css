@@ -4838,8 +4838,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 
 .statistics-area .info .skills-section .progress {
   background-color: #ffffff;
-  border-radius: inherit;
-  box-shadow: 0 0 10px #cccccc;
+  border-radius: 10px;
   margin-bottom: 30px;
 }
 
@@ -5647,6 +5646,15 @@ footer .f-item.newsletter form .input-group-addon button {
   background-size: cover; 
 }
 
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    border-radius: 10px;
+}
+
 
 
 
@@ -5805,9 +5813,9 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
 .sidebar-info.dynamic li::before{ left: 50px;}
  @media (max-width: 1280px){
 .homepage  .item.active .img{ height: 100%}
-.feature_inner{padding: 30px 30px 30px; font-size: 26px  !important;}
-.feature_inner .focus_text { font-size: 46px;}
-.feature_inner_text { padding: 20px 40px; font-size: 21px !important;}
+.feature_inner{padding: 20px 20px 20px; font-size: 26px  !important;}
+.feature_inner .focus_text { font-size: 40px;}
+.feature_inner_text { padding: 35px 40px; font-size: 21px !important;}
 }
  @media (max-width: 1030px){
 .banner-area.homepage{    height: 600px;}
