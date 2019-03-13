@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #232323;
   font-weight: normal;
   line-height: 1.2;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0;
   margin: 0;
 }
@@ -1378,11 +1378,11 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 }
 
 .default.info h2 {
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 1.2;
-  margin-bottom: 20px;
-  margin-top: -8px;
+  color: #232323;
+    display: inline-block;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
 }
 
 .default.info > a {
@@ -1889,7 +1889,8 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 }
 
 .solid-services-area .services-items .item .info h4 {
-  font-weight: 500;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .solid-services-area .services-items .item .info p {
@@ -3318,9 +3319,9 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
      # Fetures
 =================================================================== */
 .features-area {
-  margin-bottom: -60px;
-  position: relative;
-  top: -60px;
+    margin-bottom: -60px;
+    position: relative;
+    top: -85px;
 }
 
 .features-items {
@@ -5637,6 +5638,14 @@ footer .f-item.newsletter form .input-group-addon button {
   background-size: cover;
 }
 
+#abtimgg {
+   background: url(assets/img/1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
 
 
 
@@ -5823,7 +5832,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
   .features-area.homepage .features-items .col-md-4{ width: 100%; display: inline-block; padding: 0; margin: 0;}
   .features-area.homepage .features-items .col-md-8{ width: 100%; display: inline-block; background-color: #eee;}
   .feature_inner { padding: 15px 30px 10px; line-height: 24px; font-size: 16px;}
-  .feature_inner_text {padding: 20px !important;  font-size: 13px !important;}
+  .feature_inner_text {padding: 26px !important;  font-size: 13px !important;}
   .homepage_abt.default-padding { padding-top: 0px !important; padding-bottom: 0px !important;}
   .feature_inner .focus_text {   font-size: 30px !important;}
   .breadcrumb-area h1{ font-size: 30px !important; line-height: 40px;}

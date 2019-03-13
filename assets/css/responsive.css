@@ -376,7 +376,7 @@
   }
 }
 @media only screen and (max-width: 800px) {
-  body, .banner-area, .banner-area div {   height: 350px;}
+  body, .banner-area, .banner-area div {   height: 380px;}
   .container { width:94%;}
 }
 
@@ -617,6 +617,7 @@
   .about-area.video-info .default.info {
     margin-top: 30px;
     padding-left: 15px;
+    text-align: center;
   }
 
   .testimonials-area .info-items.owl-carousel .owl-dots {
