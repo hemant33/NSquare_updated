@@ -4820,10 +4820,11 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 
 .statistics-area .info h2 {
   font-weight: 600;
-  margin-bottom: 20px;
   position: relative;
   z-index: 1;
   margin-top: -7px;
+  margin-bottom: 50px; 
+  line-height: 41px;
 }
 
 .statistics-area .info .skills-section {
@@ -5836,7 +5837,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
   .homepage_abt.default-padding { padding-top: 0px !important; padding-bottom: 0px !important;}
   .feature_inner .focus_text {   font-size: 30px !important;}
   .breadcrumb-area h1{ font-size: 30px !important; line-height: 40px;}
-  h2 { font-size: 18px !important;}
+  h2 { font-size: 18px !important;line-height: 27px !important;}
 }
 
  @media (max-width: 768px){
