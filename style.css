@@ -5616,6 +5616,32 @@ footer .f-item.newsletter form .input-group-addon button {
 }
 
 
+/*================================================================
+   # Mystyles Edit
+================================================================== */
+
+
+
+
+
+#crm-logo {
+    padding-bottom: 20px;
+    width: 180px;
+}
+
+#bootcarousel {
+    background: url(assets/img/nsquare_video.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+
+
 /* ============================================================== 
      # Preloader 
 =================================================================== */
@@ -5793,7 +5819,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
 .homepage_abt.default-padding { padding-top: 40px;  padding-bottom: 40px;}
 }
 @media (max-width: 650px){
-  .features-area.homepage{ top: -50px}
+  .features-area.homepage{ top: 0px}
   .features-area.homepage .features-items .col-md-4{ width: 100%; display: inline-block; padding: 0; margin: 0;}
   .features-area.homepage .features-items .col-md-8{ width: 100%; display: inline-block; background-color: #eee;}
   .feature_inner { padding: 15px 30px 10px; line-height: 24px; font-size: 16px;}
