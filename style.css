@@ -2433,6 +2433,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
   font-weight: 600;
   padding: 20px;
   position: relative;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .acd-items .panel-heading {
@@ -5727,8 +5728,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
 .tab-services-area .services-item.insurancetype .nav.nav-pills li{ width: 200px;}
 .tab-services-area .services-item.insurancetype{ padding: 0;}
 .services-item.insurancetype .nav{ margin: 0 auto; text-align: center;}
-.tab-services-area .services-item.insurancetype .nav.nav-pills li{ float: none;    margin-top: 25px;
-    margin-right: 25px;}
+.tab-services-area .services-item.insurancetype .nav.nav-pills li{ float: none;    margin-top: 25px;}
 .tab-services-area .services-item.insurancetype .nav.nav-pills li a{    box-shadow: 0 0 3px #cccccc;}
 .auto_insurance{ background: url(assets/img/auto_insurance.jpg) no-repeat center center; width:62px; height:62px; display: block; margin: 0 auto}
 .health_insurance{ background: url(assets/img/health_insurance.jpg) no-repeat center center; width:62px; height:62px; display: block; margin: 0 auto}
@@ -5803,15 +5803,17 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
 .tab-services-area .services-item.education .nav.nav-pills li{ float: none;    margin-top: 25px;
     margin-right: 25px;}
 .tab-services-area .services-item.education .nav.nav-pills li a{    box-shadow: 0 0 3px #cccccc;}
-.healthcare h3{ font-weight: bold; margin-top: 40px; font-size: 18px; margin-bottom: 7px;}
+.healthcare h3{ font-weight: bold; margin-top: 40px; font-size: 18px; margin-bottom: 18px;}
 .healthcare .item {
-    background: #f6f6f6 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     border-left: 5px solid #f6961e;
     color: #414141;
     font-size: 14px;
-    padding: 20px 25px;
+    padding: 25px 25px;
     position: relative;
     z-index: 1;
+    text-align: center;
+    border-radius: 5px;
 }
 .fnt24{ font-size: 24px;}
 .timeline p {
