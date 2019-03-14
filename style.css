@@ -5665,6 +5665,15 @@ footer .f-item.newsletter form .input-group-addon button {
     display: block;
 }
 
+.mysmallt h5 {
+    color: #f6961e;
+    font-weight: 600;
+    text-transform: inherit;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+}
+
 
 
 
