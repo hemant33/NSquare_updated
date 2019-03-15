@@ -5811,8 +5811,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
 .tab-services-area .services-item.education .nav.nav-pills li {  width: 250px;}
 .services-item.education .nav{ margin: 0 auto; text-align: center;}
 .tab-services-area .services-item.education{ padding: 0;}
-.tab-services-area .services-item.education .nav.nav-pills li{ float: none;    margin-top: 25px;
-    margin-right: 25px;}
+.tab-services-area .services-item.education .nav.nav-pills li{ float: none;    margin-top: 25px;}
 .tab-services-area .services-item.education .nav.nav-pills li a{    box-shadow: 0 0 3px #cccccc;}
 .healthcare h3{ font-weight: bold; margin-top: 40px; font-size: 18px; margin-bottom: 18px;}
 .healthcare .item {
