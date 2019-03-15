@@ -4523,7 +4523,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 .contact-form-area .tab-content li .info span {
   display: block;
   font-weight: normal;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 
 .office-info .tab-content img {
