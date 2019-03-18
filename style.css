@@ -5842,7 +5842,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
 .sidebar-info.dynamic li::before{ left: 50px;}
  @media (max-width: 1280px){
 .homepage  .item.active .img{ height: 100%}
-.feature_inner{padding: 20px 20px 20px; font-size: 26px  !important;}
+.feature_inner{padding: 40px 20px 40px; font-size: 26px  !important;}
 .feature_inner .focus_text { font-size: 40px;}
 .feature_inner_text { padding: 35px 40px; font-size: 21px !important;}
 }
