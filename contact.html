@@ -43,7 +43,7 @@
 <body>
 
     <!-- Preloader Start -->
-    <div class="se-pre-con"></div>
+    <!-- <div class="se-pre-con"></div> -->
     <!-- Preloader Ends -->
 
     <!-- Header 
@@ -534,18 +534,18 @@
     <script src="assets/js/custom-chart.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <!-- <script>
-        function GetURLParameter(e) {
-            for (var t = window.location.search.substring(1), n = t.split("&"), s = 0; s < n.length; s++) {
-                var l = n[s].split("=");
-                if (l[0] == e) return l[1]
+    <script>
+            function GetURLParameter(e) {
+                for (var t = window.location.search.substring(1), n = t.split("&"), s = 0; s < n.length; s++) {
+                    var l = n[s].split("=");
+                    if (l[0] == e) return l[1]
+                }
             }
-        }
-        window.onload = function () {
-            "sent" === GetURLParameter("msg") ? (document.getElementById("sentmsg").style.display = "block", $("#sentmsg").delay(1e3).fadeOut("slow")) : document.getElementById("sentmsg").style.display = "none"
-        }
-
-    </script> -->
+            window.onload = function() {
+                "sent" === GetURLParameter("msg") ? (document.getElementById("sentmsg").style.display = "block", $("#sentmsg").delay(1e3).fadeOut("slow")) : document.getElementById("sentmsg").style.display = "none"
+            }
+    
+        </script>
 </body>
 
 </html>
