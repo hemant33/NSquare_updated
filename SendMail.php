@@ -25,28 +25,28 @@
 				Comment :	".$_POST['comments']."<br>
 				<br><br> Thank You.";
 
-				echo "fsdfsfsdfdsfdsfs ".$_POST['name3'];
+				//echo "fsdfsfsdfdsfdsfs ".$_POST['enquiry_type'];
 
-				$enquiry_type=$_POST['name3'];
+				//$enquiry_type=$_POST['enquiry_type'];
 
-				//$subject='Enquiry';
+				$subject='Enquiry';
 
 				//echo $enquiry_type; die;
-				if($enquiry_type == 'contact_form'){
-					$subject='Contact Enquiry';
-				}else if($enquiry_type == 'pharmceutials_form'){
-					$subject='Pharmcutials Enquiry';
-				}else if($enquiry_type == 'healthcare_form'){
-					$subject='Health Care Enquiry';
-				}else if($enquiry_type == 'professionalservices_form'){
-					$subject='Professional Services Enquiry';
-				}else if($enquiry_type == 'banking_form'){
-					$subject='Banking Enquiry';
-				}else if($enquiry_type == 'education_form'){
-					$subject='Education Enquiry';
-				}else{
-					$subject='Enquiry****'.$enquiry_type;
-				}
+				// if($enquiry_type == 'contact_form'){
+				// 	$subject='Contact Enquiry';
+				// }else if($enquiry_type == 'pharmceutials_form'){
+				// 	$subject='Pharmcutials Enquiry';
+				// }else if($enquiry_type == 'healthcare_form'){
+				// 	$subject='Health Care Enquiry';
+				// }else if($enquiry_type == 'professionalservices_form'){
+				// 	$subject='Professional Services Enquiry';
+				// }else if($enquiry_type == 'banking_form'){
+				// 	$subject='Banking Enquiry';
+				// }else if($enquiry_type == 'education_form'){
+				// 	$subject='Education Enquiry';
+				// }else{
+				// 	$subject='Enquiry****'.$enquiry_type;
+				// }
 
 		
 		// $emailid='enquiry@nsquarexperts.com';
@@ -84,20 +84,22 @@
 			//header('location:contact.html');
 			//header('location:contact.html?msg=sentmsgerror');
 		} else {
+			header('Location:index.html') ;
+			// header('location:index.html');
 			// echo 'Message has been sent';
-			if($enquiry_type == 'contact_form'){
-				header('location:contact.html?msg=sent');
-			}else if($enquiry_type == 'pharmceutials_form'){
-				header('location:pharmceutials.html?msg=sent');
-			}else if($enquiry_type == 'healthcare_form'){
-				header('location:healthcare.html?msg=sent');
-			}else if($enquiry_type == 'professionalservices_form'){
-				header('location:professional_services.html?msg=sent');
-			}else if($enquiry_type == 'banking_form'){
-				header('location:banking.html?msg=sent');
-			}else if($enquiry_type == 'education_form'){
-				header('location:education.html?msg=sent');
-			}
+			// if($enquiry_type == 'contact_form'){
+			// 	header('location:contact.html?msg=sent');
+			// }else if($enquiry_type == 'pharmceutials_form'){
+			// 	header('location:pharmceutials.html?msg=sent');
+			// }else if($enquiry_type == 'healthcare_form'){
+			// 	header('location:healthcare.html?msg=sent');
+			// }else if($enquiry_type == 'professionalservices_form'){
+			// 	header('location:professional_services.html?msg=sent');
+			// }else if($enquiry_type == 'banking_form'){
+			// 	header('location:banking.html?msg=sent');
+			// }else if($enquiry_type == 'education_form'){
+			// 	header('location:education.html?msg=sent');
+			// }
 		    
 			//header('location:thankyou.html');
 		}
