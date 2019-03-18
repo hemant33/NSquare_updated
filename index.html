@@ -686,50 +686,65 @@
                         <div class="heading">
                             <h3>Let's Talk about Your Business</h3>
                         </div>
-                        <form action="assets/mail/contact.php" method="POST" class="contact-form">
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <input class="form-control" id="name" name="name" placeholder="Name" type="text">
-                                        <span class="alert-error"></span>
+                        <form action="SendMail.php" method="POST" class="contact-form">
+                                <div id=sentmsg style=display:none>Enquiry sent successfully</div>
+                                
+                                <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="form-group">
+                                                    <input class="form-control" id="enquiry_type" name="enquiry_type" type="hidden" value = "pharmceutials_form">
+                                
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input class="form-control" id="name" name="name" placeholder="Name"
+                                                type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
-                                        <span class="alert-error"></span>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input class="form-control" id="email" name="email" placeholder="Email*"
+                                                type="email">
+                                            <span class="alert-error"></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
-                                        <span class="alert-error"></span>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <input class="form-control" id="phone" name="phone" placeholder="Phone"
+                                                type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <div class="form-group comments">
-                                        <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *"></textarea>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="form-group comments">
+                                            <textarea class="form-control" id="comments" name="comments"
+                                                placeholder="Tell Us About Project *"></textarea>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <button type="submit" name="submit" id="submit">
-                                        Send Message <i class="fa fa-paper-plane"></i>
-                                    </button>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <button type="submit" name="submit" id="submit">
+                                            Send Message <i class="fa fa-paper-plane"></i>
+                                        </button>
+                                    </div>
                                 </div>
-                            </div>
-                            <!-- Alert Message -->
-                            <div class="col-md-12 alert-notification">
-                                <div id="message" class="alert-msg"></div>
-                            </div>
-                        </form>
+                                <!-- Alert Message -->
+                                <div class="col-md-12 alert-notification">
+                                    <div id="message" class="alert-msg"></div>
+                                </div>
+                            </form>
                     </div>
                 </div>
                 <!-- End Contact Form -->
@@ -1134,6 +1149,18 @@
 
     </script>
 
+<script>
+        function GetURLParameter(e) {
+            for (var t = window.location.search.substring(1), n = t.split("&"), s = 0; s < n.length; s++) {
+                var l = n[s].split("=");
+                if (l[0] == e) return l[1]
+            }
+        }
+        window.onload = function() {
+            "sent" === GetURLParameter("msg") ? (document.getElementById("sentmsg").style.display = "block", $("#sentmsg").delay(1e3).fadeOut("slow")) : document.getElementById("sentmsg").style.display = "none"
+        }
+
+    </script>
 </body>
 
 </html>

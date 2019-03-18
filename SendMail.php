@@ -6,7 +6,29 @@
 
 		
 
-		 $to = "pushkar.tamhane@nsquarexperts.com";
+ $name = $_POST['name'];
+ $phone = $_POST['phone'];
+ $email = $_POST['email'];
+ $comments = $_POST['comments'];
+
+ if($name == ''){
+	echo "<div class='alert alert-danger'>";
+			echo "<p>Name Field Is Required</p>";
+			echo "</div>"; 
+ } else if($phone == ''){
+	echo "<div class='alert alert-danger'>";
+			echo "<p>Phone Field Is Required</p>";
+			echo "</div>"; 
+ }else if($email == ''){
+	echo "<div class='alert alert-danger'>";
+			echo "<p>Email Field Is Required</p>";
+			echo "</div>"; 
+ }else if($comments == ''){
+	echo "<div class='alert alert-danger'>";
+			echo "<p>Comments Field Is Required</p>";
+			echo "</div>"; 
+ }else{
+			$to = "info@nsquarexperts.com";
     	$subject = "Contact Enquiry";
 		//  $body="Dear Team,<br>
 		// 		we have below enquiry<br>
@@ -19,7 +41,7 @@
 
 		$body="Dear Team,<br>
 				we have below enquiry<br>
-				Name :".$_POST['name']."<br>
+				Name : ".$_POST['name']."<br>
 				Mobile :	".$_POST['phone']."<br>
 				Email :	".$_POST['email']."<br>
 				Comment :	".$_POST['comments']."<br>
@@ -29,7 +51,7 @@
 
 				//$enquiry_type=$_POST['enquiry_type'];
 
-				$subject='Enquiry';
+				//$subject='Enquiry';
 
 				//echo $enquiry_type; die;
 				// if($enquiry_type == 'contact_form'){
@@ -67,11 +89,11 @@
 		$mail->Password = 'nsquare@123';                           // SMTP password
 		
 		$mail->From 	= 'info@nsquarexperts.com';
-		$mail->FromName = 'Nsquarexperts';
+		$mail->FromName = 'Nsquare Xperts Info';
 		
 		$mail->addAddress($to, ''); // Add a recipient
 	 	//$mail->addBCC('pratik@nsquarexperts.com');
-		$mail->addBCC('pushkar.tamhane@nsquarexperts.com');  
+		$mail->addBCC('pushkar.tamhane@nsquarexperts.com'); 
 		
 		$mail->isHTML(true);                                  // Set email format to HTML
 		$mail->Subject =$subject;
@@ -84,8 +106,6 @@
 			//header('location:contact.html');
 			//header('location:contact.html?msg=sentmsgerror');
 		} else {
-			header('Location:index.html') ;
-			// header('location:index.html');
 			// echo 'Message has been sent';
 			// if($enquiry_type == 'contact_form'){
 			// 	header('location:contact.html?msg=sent');
@@ -100,9 +120,19 @@
 			// }else if($enquiry_type == 'education_form'){
 			// 	header('location:education.html?msg=sent');
 			// }
+
+			$name = $_POST['name'];
+			echo "<div class='alert alert-success'>";
+			echo "<h3>Email Sent Successfully.</h3>";
+			echo "<p>Thank you <strong>$name</strong>.</p>";
+			echo "</div>";
+	
+			//header('Location:contact.html?msg=sent');
 		    
 			//header('location:thankyou.html');
 		}
     
+ }
+		 
 
 ?>
