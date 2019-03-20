@@ -11,6 +11,8 @@
  $email = $_POST['email'];
  $comments = $_POST['comments'];
 
+
+
  if($name == ''){
 	echo "<div class='alert alert-danger'>";
 			echo "<p>Name Field Is Required</p>";
@@ -27,7 +29,11 @@
 	echo "<div class='alert alert-danger'>";
 			echo "<p>Comments Field Is Required</p>";
 			echo "</div>"; 
- }else{
+ } else if(!preg_match("/^[_.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+.)+[a-zA-Z]{2,6}$/i", $email)){
+	echo "<div class='alert alert-danger'>";
+	echo "<p>Enter Valid Email Id</p>";
+	echo "</div>"; 
+ } else{
 			$to = "info@nsquarexperts.com";
     	$subject = "Contact Enquiry";
 		//  $body="Dear Team,<br>
