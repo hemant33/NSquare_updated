@@ -5906,6 +5906,10 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
     width: 40px;
     line-height: 40px;
 }
+     
+.features-items .col-md-4 {
+    box-shadow: 0 0 0px #cccccc !important;     
+}
 
 
 }
