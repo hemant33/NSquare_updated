@@ -5687,9 +5687,6 @@ footer .f-item.newsletter form .input-group-addon button {
     background-color: #fafafa !important;
 }
 
-
-
-
 /* ============================================================== 
      # Preloader 
 =================================================================== */
@@ -5908,6 +5905,10 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.navbar-right l
     height: 40px;
     width: 40px;
     line-height: 40px;
+}
+     
+.features-items .col-md-4 {
+    box-shadow: 0 0 0px #cccccc !important;     
 }
 
 
