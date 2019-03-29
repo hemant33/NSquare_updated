@@ -5687,6 +5687,19 @@ footer .f-item.newsletter form .input-group-addon button {
     background-color: #fafafa !important;
 }
 
+.tnsarea h4 {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.tnsarea, .tnsarea p {
+    font-size: 14px !important;
+}
+
+
+
+
+
 /* ============================================================== 
      # Preloader 
 =================================================================== */
