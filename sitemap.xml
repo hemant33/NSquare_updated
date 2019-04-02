@@ -10,202 +10,242 @@
 <url>
   <loc>http://www.nsquarexperts.com/</loc>
   <lastmod>2019-03-26T05:40:40+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/index.html</loc>
   <lastmod>2019-03-26T05:40:40+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/about.html</loc>
   <lastmod>2019-03-26T05:40:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/services.html</loc>
   <lastmod>2019-03-26T05:40:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/implementation.html</loc>
   <lastmod>2019-03-26T05:40:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/business-process-analysis.html</loc>
   <lastmod>2019-03-26T05:40:48+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/integration.html</loc>
   <lastmod>2019-03-26T05:40:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/data-migration.html</loc>
   <lastmod>2019-03-26T05:40:46+00:00</lastmod>
-  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+    <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/pharmaceuticals.html</loc>
   <lastmod>2019-03-26T05:40:42+00:00</lastmod>
-  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+    <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/insurance.html</loc>
   <lastmod>2019-03-26T05:40:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/healthcare.html</loc>
   <lastmod>2019-03-26T05:40:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/professional-services.html</loc>
   <lastmod>2019-03-26T05:40:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/field-service.html</loc>
   <lastmod>2019-03-26T05:40:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/banking.html</loc>
   <lastmod>2019-03-26T05:40:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/education.html</loc>
   <lastmod>2019-03-26T05:40:47+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/call-integra.html</loc>
   <lastmod>2019-03-26T05:40:48+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/chatbot.html</loc>
   <lastmod>2019-03-26T05:40:48+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.nsquarexperts.com/contact.html</loc>
   <lastmod>2019-03-26T05:40:47+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
     
     <url>
   <loc>https://blogs.nsquarexperts.com/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+        <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/microsoft-dynamics-365-for-healthcare-provider-side-operations/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/category/technology/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/crm-telephony-integration-cti-with-call-integra-for-microsoft-dynamics-crm/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/augment-reality-a-game-changer-in-conventional-learning/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/d365-integrated-web-portals/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/artificial-intelligence-in-crm/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/artificial-intelligence-in-healthcare-part-ii/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/blockchain/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/chatbots-in-dynamics-crm-part-ii/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/smart-change-in-daily-commute/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/category/general-updates/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/artificial-intelligence-in-healthcare/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/page/2/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/chatbots-in-dynamics-crm/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/category/technology/page/2/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/preamble-on-team/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
-  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+    <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/power-bi-in-dynamics-365/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/custom-fetch-xml-and-advanced-search/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/decision-making-based-on-kpis/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/a-light-note-towards-lead-generation-via-email-marketing/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blogs.nsquarexperts.com/whats-really-killing-your-marketing-initiatives/</loc>
   <lastmod>2019-03-26T07:02:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 
