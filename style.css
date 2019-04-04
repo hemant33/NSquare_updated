@@ -6614,6 +6614,10 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
         font-size: 14px !important;
         line-height: 21px !important;
     }
+    
+    .bgcontain800 {
+        width: 95% !important;
+    }
 }
 
 
