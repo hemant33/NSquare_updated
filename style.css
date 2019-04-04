@@ -6600,6 +6600,11 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
         padding-top: 30px !important;
 
     }
+    
+    .breadcrumb-area h1 {
+        line-height: 40px;
+    }
+    
 }
 
 @media (max-width: 800px) and (min-width: 768px) {
