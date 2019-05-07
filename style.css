@@ -127,7 +127,7 @@ iframe {
 
 p {
     color: #232323;
-    line-height: 30px;
+    line-height: 26px;
     margin: 0 0 15px;
     text-transform: none;
     font-weight: 400;
@@ -906,6 +906,7 @@ body,
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .carousel-fade .carousel-control {
@@ -1006,6 +1007,7 @@ body,
     -moz-transform: skewX(-35deg);
     -ms-transform: skewX(-35deg);
     -o-transform: skewX(-35deg);
+    transform: skewX(-35deg);
     width: 40%;
     z-index: -1;
 }
@@ -1955,8 +1957,8 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 
 .solid-services-area .services-items .item .info p {
     margin: 0;
-    font-size: 13px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 
@@ -1999,6 +2001,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     text-align: center;
     position: absolute;
     width: 100%;
+    height: auto;
 }
 
 .service-item:hover .info-title {
@@ -2065,12 +2068,12 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 .service-item .overlay-content h4 {
     font-weight: 500;
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.service-item .overlay-content>a {
+.service-item .overlay-content> {
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -3415,7 +3418,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     background-color: #f6961e;
     color: #fff;
     padding: 41px 30px 41px;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 40px;
     font-weight: 500;
 }
@@ -4600,7 +4603,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 }
 
 .contact-form-area .contact-form .content {
-    box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0px 0px 4px #f7eada;
     overflow: hidden;
     padding: 50px 30px;
     background-color: #fff;
@@ -4929,8 +4932,10 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 }
 
 .statistics-area .info .skills-section h5 {
-    font-weight: 600;
     text-transform: capitalize;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
 }
 
 .statistics-area .info .skills-section .progress {
@@ -5243,7 +5248,6 @@ footer {
 footer .f-item h4 {
     color: #ffffff;
     font-weight: 600;
-    margin-bottom: 20px;
     padding-bottom: 10px;
     padding-left: 12px;
     position: relative;
@@ -5260,12 +5264,13 @@ footer .f-item h4::after {
     left: 0;
     position: absolute;
     width: 5px;
+    top: 1px;
 }
 
 footer .f-item p {
     color: #cccccc;
-    font-size: 13px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 footer .f-item .address li {
@@ -5543,7 +5548,7 @@ footer .f-item.link.full li {
 }
 
 footer .f-item.link.full li {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 footer .f-item.link.full li a {
@@ -5559,11 +5564,12 @@ footer .f-item.link.full li:last-child {
 footer .f-item.link li a {
     color: #cccccc;
     display: inline-block;
-    font-weight: 500;
-    margin-bottom: 15px;
+    font-weight: normal;
+    margin-bottom: 16px;
     padding-left: 20px;
     position: relative;
     text-transform: capitalize;
+    font-size: 15px;
 }
 
 footer .f-item.link li a:hover {
@@ -5803,6 +5809,32 @@ footer .f-item.newsletter form .input-group-addon button {
     height: 100%;
 }
 
+.service-item .info-title a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+#contact .content {
+    background-color: #ffe5c6;
+}
+
+#contact .content .form-group {
+    background-color: #ffffff;
+}
+
+.service-item .info-title span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.service-item .overlay-content a {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
 
 /* ============================================================== 
      # Preloader 
@@ -5837,21 +5869,15 @@ footer .f-item.newsletter form .input-group-addon button {
 
 .social__item {
     float: left;
-    height: 30px;
+    height: 40px;
     margin-left: 10px;
 }
 
 .icon-circle {
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    padding-top: 3px;
-    font-size: 12px;
+    width: 50px;
+    height: 35px;
     text-align: center;
-    border: 3px solid #8b98b2;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
 }
 
 nav.navbar.bootsnav ul.nav>li>a:hover,
@@ -6382,6 +6408,14 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 .more {
     color: #fff;
     text-decoration: underline;
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 12px;
+    padding: 7px;
+    border: 1px solid #F6961E;
 }
 
 .more:hover {
@@ -6409,7 +6443,7 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     }
     .feature_inner_text {
         padding: 35px 40px;
-        font-size: 21px !important;
+        font-size: 18px !important;
     }
 }
 
@@ -6419,7 +6453,8 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     }
     .feature_inner {
         padding: 30px 20px 20px;
-        font-size: 22px !important;
+        font-size: 18px !important;
+        line-height: 34px;
     }
     .feature_inner .focus_text {
         font-size: 42px !important;
@@ -6435,7 +6470,7 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
         height: auto;
     }
     .feature_inner .focus_text {
-        font-size: 26px !important;
+        font-size: 25px !important;
     }
     .feature_inner {
         padding: 30px 20px 20px;
