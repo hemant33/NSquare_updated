@@ -36,7 +36,7 @@ if ($name == '') {
 } else {
 
 	// Validate reCAPTCHA box 
-	if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
+	/*if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
 		// Google reCAPTCHA API secret key 
 		$secretKey = '6LdrNKIUAAAAADT6SR_UeccrZovElO1oDKMmyaph';
 
@@ -47,7 +47,7 @@ if ($name == '') {
 		$responseData = json_decode($verifyResponse);
 
 		// If reCAPTCHA response is valid 
-		if ($responseData->success) {
+		if ($responseData->success) {*/
 
 			$to = "info@nsquarexperts.com";
 			$subject = "Contact Enquiry";
@@ -152,12 +152,12 @@ if ($name == '') {
 
 				//header('location:thankyou.html');
 			}
-		}
+		/*}
 	} else {
 		$statusMsg = 'Please check on the reCAPTCHA box.';
 
 		echo "<div class='alert alert-danger'>";
 		echo "<p>$statusMsg</p>";
 		echo "</div>";
-	}
+	}*/
 }
