@@ -5,13 +5,13 @@ require 'PHPMailerAutoload.php';
 //require_once 'contents.html';
 
 
-
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 $comments = $_POST['comments'];
+$capchaCode = $_POST["g-recaptcha-response"];
 
-
+// var_dump($_POST); die;
 
 if ($name == '') {
 	echo "<div class='alert alert-danger'>";
@@ -36,7 +36,8 @@ if ($name == '') {
 } else {
 
 	// Validate reCAPTCHA box 
-	if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
+	if (isset($_POST["g-recaptcha-response"]) && !empty($_POST["g-recaptcha-response"])) {
+		
 		// Google reCAPTCHA API secret key 
 		$secretKey = '6LdrNKIUAAAAADT6SR_UeccrZovElO1oDKMmyaph';
 
@@ -45,6 +46,7 @@ if ($name == '') {
 
 		// Decode json data 
 		$responseData = json_decode($verifyResponse);
+		// echo $responseData; die;
 
 		// If reCAPTCHA response is valid 
 		if ($responseData->success) {
@@ -143,11 +145,7 @@ if ($name == '') {
 				// }
 
 				$name = $_POST['name'];
-				echo "<div class='alert alert-success'>";
-				echo "<h3>Email Sent Successfully.</h3>";
-				echo "<p>Thank you <strong>$name</strong>.</p>";
-				echo "</div>";
-
+				echo "<div class='alert alert-success'> <h3>Email Sent Successfully.</h3> <p>Thank you <strong>$name</strong>.</p> </div>";
 				//header('Location:contact.html?msg=sent');
 
 				//header('location:thankyou.html');
@@ -156,8 +154,6 @@ if ($name == '') {
 	} else {
 		$statusMsg = 'Please check on the reCAPTCHA box.';
 
-		echo "<div class='alert alert-danger'>";
-		echo "<p>$statusMsg</p>";
-		echo "</div>";
+		echo "<div class='alert alert-danger'> <p>$statusMsg</p> </div>";
 	}
 }
