@@ -187,7 +187,7 @@ a {
     -ms-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 b,
@@ -3398,7 +3398,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     box-shadow: 0 0 5px #000;
     overflow: hidden;
     border-radius: 3px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .features-items .col-md-12 {
@@ -3417,22 +3417,22 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 .feature_inner {
     background-color: #f6961e;
     color: #fff;
-    padding: 41px 30px 41px;
+    padding: 41px 40px 41px;
     font-size: 20px;
     line-height: 40px;
     font-weight: 500;
 }
 
 .feature_inner_text {
-    padding: 40px 50px;
-    color: #000;
+    padding: 50px 50px;
+    color: #232323;
     font-size: 18px;
     line-height: 30px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .feature_inner .focus_text {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -4230,8 +4230,9 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 }
 
 .fnt13 {
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
 }
 
 .author-bio .content p::after {
@@ -4996,7 +4997,9 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 
 .tab-services-area .services-item .nav.nav-pills li.active a,
 .tab-services-area .services-item .nav.nav-pills li a:hover {
-    color: #f6961e;
+    display: inline-block;
+    color: #212121;
+    font-size: 18px;
 }
 
 
@@ -5835,6 +5838,30 @@ footer .f-item.newsletter form .input-group-addon button {
     padding: 10px;
 }
 
+#pdysec {
+    text-align: center;
+}
+
+#pdysec .card {
+    margin: 20px;
+}
+
+#pdysec .card-img-top {
+    margin-bottom: 10px;
+}
+
+
+/* #pdysec .card {
+    box-shadow: 0 0 3px #cccccc;
+} */
+
+#pdysec .card-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
 
 /* ============================================================== 
      # Preloader 
@@ -6549,6 +6576,9 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     }
 }
 
+
+/* My responsive Styles*/
+
 @media (max-width: 768px) {
     .social {
         float: right;
@@ -6577,6 +6607,15 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     }
     .features-items .col-md-4 {
         box-shadow: 0 0 0px #cccccc !important;
+    }
+    #vision img {
+        margin-top: 20px;
+    }
+    #vision p {
+        text-align: center;
+    }
+    #pdysec .card {
+        margin-bottom: 40px;
     }
 }
 
