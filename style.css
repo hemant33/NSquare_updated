@@ -4997,7 +4997,6 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 
 .tab-services-area .services-item .nav.nav-pills li.active a,
 .tab-services-area .services-item .nav.nav-pills li a:hover {
-    display: inline-block;
     color: #212121;
     font-size: 18px;
 }
