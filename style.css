@@ -239,8 +239,6 @@ input {
 }
 
 .bg-fixed_about {
-    background-attachment: fixed;
-    background-position: center center;
     background-size: cover;
 }
 
@@ -1288,7 +1286,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 }
 
 .site-heading {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     overflow: hidden;
     margin-top: -5px;
 }
@@ -6327,6 +6325,46 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 
 .security_icon {
     background: url(assets/img/security_icon.jpg) no-repeat center center;
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto
+}
+
+.social_cc {
+    background: url(assets/img/social_cc.jpg) no-repeat center center;
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto
+}
+
+.marketing_cc {
+    background: url(assets/img/marketing_cc.jpg) no-repeat center center;
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto
+}
+
+.sales_cc {
+    background: url(assets/img/sales_cc.jpg) no-repeat center center;
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto
+}
+
+.platform_cc {
+    background: url(assets/img/platform_cc.jpg) no-repeat center center;
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto
+}
+
+.customers_cc {
+    background: url(assets/img/customers_cc.jpg) no-repeat center center;
     width: 70px;
     height: 70px;
     display: block;
