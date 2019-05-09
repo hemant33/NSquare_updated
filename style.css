@@ -4401,7 +4401,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 .testimonials-area .testimonials-info blockquote {
     border: medium none;
     font-size: 15px;
-    padding: 0 0 0 75px;
+    padding: 0;
     position: relative;
 }
 
@@ -5809,7 +5809,7 @@ footer .f-item.newsletter form .input-group-addon button {
 }
 
 #contact .content {
-    background-color: #ffe5c6;
+    background-color: #f3f6f8;
 }
 
 #contact .content .form-group {
