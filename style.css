@@ -4398,17 +4398,6 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     margin-bottom: 20px;
 }
 
-.testimonials-area .testimonials-info blockquote::before {
-    content: ",,";
-    font-family: "Times New Roman";
-    font-size: 180px;
-    left: -7px;
-    letter-spacing: -15px;
-    opacity: 0.09;
-    position: absolute;
-    top: -50px;
-}
-
 .testimonials-area .testimonials-info blockquote {
     border: medium none;
     font-size: 15px;
@@ -5751,11 +5740,19 @@ footer .f-item.newsletter form .input-group-addon button {
 }
 
 .mdisplay {
-    display: none;
+    display: none !important;
 }
 
 .ddisplay {
-    display: block;
+    display: block !important;
+}
+
+.mmdisplay {
+    display: none !important;
+}
+
+.dddisplay {
+    display: table-cell !important;
 }
 
 .mysmallt h5 {
@@ -6650,6 +6647,12 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     }
     .ddisplay {
         display: none;
+    }
+    .mmdisplay {
+        display: block !important;
+    }
+    .dddisplay {
+        display: none !important;
     }
     .contact-form-area .tab-content li .info {
         margin: 0;
