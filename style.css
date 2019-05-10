@@ -5881,6 +5881,113 @@ footer .f-item.newsletter form .input-group-addon button {
 }
 
 
+/*st*/
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
+
+
+/*stop*/
+
+.pricing-divider-img {
+    left: 0;
+    width: 100%;
+}
+
+.citem {
+    transition: all 150ms ease-out;
+}
+
+.citem:hover {
+    transform: scale(1.05);
+}
+
+.citem:hover .deco-layer--1 {
+    -webkit-transform: translate3d(15px, 0, 0);
+    transform: translate3d(15px, 0, 0);
+}
+
+.citem:hover .deco-layer--2 {
+    -webkit-transform: translate3d(-15px, 0, 0);
+    transform: translate3d(-15px, 0, 0);
+}
+
+.cscolor1 {
+    background-color: #f6961e;
+}
+
+.cscolor2 {
+    background-color: #07B3EC;
+}
+
+.cscolor3 {
+    background-color: #41D502;
+}
+
+.custul {
+    margin-top: -40px;
+}
+
+
 /* ============================================================== 
      # Preloader 
 =================================================================== */
@@ -6680,6 +6787,9 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     }
     #pdysec .card {
         margin-bottom: 40px;
+    }
+    .citem {
+        margin-bottom: 20px;
     }
 }
 
