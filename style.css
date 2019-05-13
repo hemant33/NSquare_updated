@@ -6064,6 +6064,62 @@ footer .f-item.newsletter form .input-group-addon button {
     border-bottom: 0;
 }
 
+.pay_gate_icn {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background: url(assets/img/payment_gateway.png) center center no-repeat;
+    margin: 0px auto;
+}
+
+.ecomm_pt_icn {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background: url(assets/img/ecommerce_portal.png) center center no-repeat;
+    margin: 0px auto;
+}
+
+.tel_sys_icn {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background: url(assets/img/telephony_systems.png) center center no-repeat;
+    margin: 0px auto;
+}
+
+.mobility_icn {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background: url(assets/img/mobility.png) center center no-repeat;
+    margin: 0px auto;
+}
+
+.inven_mm_icn {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background: url(assets/img/inventory_management.png) center center no-repeat;
+    margin: 0px auto;
+}
+
+.tp_data_icn {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background: url(assets/img/telephony_systems.png) center center no-repeat;
+    margin: 0px auto;
+}
+
+.oerp_sys_icn {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background: url(assets/img/other_erp_system.png) center center no-repeat;
+    margin: 0px auto;
+}
+
 
 /* ============================================================== 
      # Preloader 
