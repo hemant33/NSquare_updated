@@ -6125,7 +6125,7 @@ footer .f-item.newsletter form .input-group-addon button {
     line-height: 26px !important;
     margin-top: 30px;
     margin-bottom: 0;
-    text-shadow: 0px 2px #555;
+    text-shadow: 0px 1px #000;
 }
 
 
@@ -6294,6 +6294,30 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     margin: 0 auto
 }
 
+.defect_icon {
+    background: url(assets/img/defect_icon.jpg) no-repeat center center;
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin: 0 auto
+}
+
+.analytics_kpi_icon {
+    background: url(assets/img/analytics_kpi_icon.jpg) no-repeat center center;
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin: 0 auto
+}
+
+.dashboard_icon2 {
+    background: url(assets/img/dashboard_icon.jpg) no-repeat center center;
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin: 0 auto
+}
+
 .marketing_automation_icon {
     background: url(assets/img/marketing_automation_icon.jpg) no-repeat center center;
     width: 62px;
@@ -6376,56 +6400,48 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 
 .customer_relations {
     background: url(assets/img/customer_relations.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .regulation_icon {
     background: url(assets/img/regulation_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .risk_assesment_icon {
     background: url(assets/img/risk_assesment_icon.jpg) no-repeat center center;
-    width: 108px;
-    height: 70px;
-    display: block;
-    margin: 0 auto
-}
-
-.analystics_icon {
-    background: url(assets/img/analystics_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .monetize_icon {
     background: url(assets/img/monetize_icon.jpg) no-repeat center center;
-    width: 68px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .control_icon {
     background: url(assets/img/control_icon.jpg) no-repeat center center;
-    width: 54px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .analystics_icon {
-    background: url(assets/img/analystics_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    background: url(assets/img/analytics_kpi_icon.jpg) no-repeat center center;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
@@ -6489,14 +6505,6 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 .hr_off_icon {
     background: url(assets/img/hr_off_icon.jpg) no-repeat center center;
     width: 71px;
-    height: 70px;
-    display: block;
-    margin: 0 auto
-}
-
-.analystics_icon {
-    background: url(assets/img/analystics_icon.jpg) no-repeat center center;
-    width: 70px;
     height: 70px;
     display: block;
     margin: 0 auto
@@ -6584,40 +6592,40 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 
 .social_cc {
     background: url(assets/img/social_cc.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .marketing_cc {
     background: url(assets/img/marketing_cc.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .sales_cc {
     background: url(assets/img/sales_cc.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .platform_cc {
     background: url(assets/img/platform_cc.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .customers_cc {
     background: url(assets/img/customers_cc.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
@@ -6964,7 +6972,7 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
         padding-top: 30px !important;
     }
     .breadcrumb-area h1 {
-        line-height: 40px;
+        line-height: 48px;
     }
 }
 
