@@ -6065,58 +6065,58 @@ footer .f-item.newsletter form .input-group-addon button {
 }
 
 .pay_gate_icn {
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
-    background: url(assets/img/payment_gateway.png) center center no-repeat;
+    background: url(assets/img/payment_gateway.jpg) center center no-repeat;
     margin: 0px auto;
 }
 
 .ecomm_pt_icn {
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
-    background: url(assets/img/ecommerce_portal.png) center center no-repeat;
+    background: url(assets/img/ecommerce_portal.jpg) center center no-repeat;
     margin: 0px auto;
 }
 
 .tel_sys_icn {
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
-    background: url(assets/img/telephony_systems.png) center center no-repeat;
+    background: url(assets/img/telephony_systems.jpg) center center no-repeat;
     margin: 0px auto;
 }
 
 .mobility_icn {
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
-    background: url(assets/img/mobility.png) center center no-repeat;
+    background: url(assets/img/mobility.jpg) center center no-repeat;
     margin: 0px auto;
 }
 
 .inven_mm_icn {
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
-    background: url(assets/img/inventory_management.png) center center no-repeat;
+    background: url(assets/img/inventory_management.jpg) center center no-repeat;
     margin: 0px auto;
 }
 
 .tp_data_icn {
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
-    background: url(assets/img/telephony_systems.png) center center no-repeat;
+    background: url(assets/img/third_party_database.jpg) center center no-repeat;
     margin: 0px auto;
 }
 
 .oerp_sys_icn {
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
-    background: url(assets/img/other_erp_system.png) center center no-repeat;
+    background: url(assets/img/other_erp_system.jpg) center center no-repeat;
     margin: 0px auto;
 }
 
@@ -6336,64 +6336,72 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 
 .student_rec {
     background: url(assets/img/student_rec.jpg) no-repeat center center;
-    width: 60px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .facility_management {
     background: url(assets/img/facility_management.jpg) no-repeat center center;
-    width: 78px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin: 0 auto
+}
+
+.approval_icon {
+    background: url(assets/img/approval_icon.jpg) no-repeat center center;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .admin_managemnt {
     background: url(assets/img/admin_managemnt.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .alumni_manage {
     background: url(assets/img/alumni_manage.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .donor {
     background: url(assets/img/donor.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .streamlining {
     background: url(assets/img/streamlining.jpg) no-repeat center center;
-    width: 78px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .dashboard_icon {
     background: url(assets/img/dashboard_icon.jpg) no-repeat center center;
-    width: 83px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .automation_icon {
     background: url(assets/img/automation_icon.jpg) no-repeat center center;
-    width: 83px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
@@ -6448,88 +6456,88 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 
 .lead-management {
     background: url(assets/img/lead-management.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .account_management {
     background: url(assets/img/account_management.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .activity_management {
     background: url(assets/img/activity_management.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .bank_icon {
     background: url(assets/img/bank_icon.jpg) no-repeat center center;
-    width: 73px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .insurance_icon {
     background: url(assets/img/insurance_icon.jpg) no-repeat center center;
-    width: 73px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .retail_icon {
     background: url(assets/img/retail_icon.jpg) no-repeat center center;
-    width: 73px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .healthcare_icon {
     background: url(assets/img/healthcare_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .hr_off_icon {
     background: url(assets/img/hr_off_icon.jpg) no-repeat center center;
-    width: 71px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .utility_icon {
     background: url(assets/img/utility_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .hospitality_icon {
     background: url(assets/img/hospitality_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .contruction_icon {
     background: url(assets/img/contruction_icon.jpg) no-repeat center center;
-    width: 82px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
@@ -6544,54 +6552,62 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 
 .search_icon {
     background: url(assets/img/search_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .process_icon {
     background: url(assets/img/process_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .outlook_sync {
     background: url(assets/img/outlook_sync.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .hierarchy_icon {
     background: url(assets/img/hierarchy_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .team_collab_icon {
     background: url(assets/img/team_collab_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .security_icon {
     background: url(assets/img/security_icon.jpg) no-repeat center center;
-    width: 70px;
-    height: 70px;
+    width: 62px;
+    height: 62px;
     display: block;
     margin: 0 auto
 }
 
 .social_cc {
     background: url(assets/img/social_cc.jpg) no-repeat center center;
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin: 0 auto
+}
+
+.route_map {
+    background: url(assets/img/route_map.jpg) no-repeat center center;
     width: 62px;
     height: 62px;
     display: block;
@@ -6707,7 +6723,7 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 
 .tab-services-area .services-item.education .nav.nav-pills li {
     float: none;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .tab-services-area .services-item.education .nav.nav-pills li a {
