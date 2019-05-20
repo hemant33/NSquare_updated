@@ -1818,8 +1818,9 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 .carousel-services-area .carousel-service-items .info h5 {
     color: #f6961e;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-transform: uppercase;
+    font-size: 30px;
 }
 
 .carousel-services-area .carousel-service-items .info a {
@@ -3704,6 +3705,8 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 
 .sidebar-item.category .sidebar-info {
     margin-top: -15px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .sidebar-item.recent-post ul {
@@ -6706,6 +6709,8 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 
 .carousel-services-area.pharma .carousel-service-items .info {
     padding: 40px 60px;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 .tab-services-area .services-item.education .nav.nav-pills li {
