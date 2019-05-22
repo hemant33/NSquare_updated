@@ -3704,7 +3704,6 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 }
 
 .sidebar-item.category .sidebar-info {
-    margin-top: -15px;
     font-size: 16px;
     line-height: 26px;
 }
@@ -6085,6 +6084,12 @@ footer .f-item.newsletter form .input-group-addon button {
 
 /*abtfigfinish*/
 
+
+/*abtfig2*/
+
+
+/*abtfig2 finish*/
+
 .pricing-divider-img {
     left: 0;
     width: 100%;
@@ -6812,6 +6817,7 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 .sidebar-item.category ul li {
     list-style-position: inside;
     padding-left: 25px;
+    margin-bottom: 10px;
 }
 
 .tab-services-area .services-item.pharma .nav.nav-pills li {
