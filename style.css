@@ -5945,6 +5945,61 @@ footer .f-item.newsletter form .input-group-addon button {
 
 /*abtfig*/
 
+
+/*imggrid*/
+
+#imgblock1 {
+    background: url("assets/img/order_boxes.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px)
+}
+
+#imgblock2 {
+    background: url("assets/img/field_service_person.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#imgblock3 {
+    background: url("assets/img/schedules_plan.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px)
+}
+
+#imgblock4 {
+    background: url("assets/img/user_task_list.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.datastrip .row {
+    display: flex;
+}
+
+.datastriphead {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #f6961e;
+    text-transform: uppercase;
+}
+
+.datad {
+    padding: 25px;
+    background-color: #fafafa;
+}
+
+.datad p {
+    margin: 0;
+}
+
+
+/*imggrid end*/
+
 .snip1527 {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     color: #ffffff !important;
@@ -7005,7 +7060,7 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     border-left: 5px solid #f6961e;
     color: #414141;
     font-size: 16px;
-    padding: 29px 15px;
+    padding: 30px 30px;
     position: relative;
     z-index: 1;
     text-align: left;
@@ -7239,6 +7294,15 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
         position: unset;
         bottom: 0;
         width: 100%;
+    }
+    #imgblock1,
+    #imgblock2,
+    #imgblock3,
+    #imgblock4 {
+        display: none;
+    }
+    .datad {
+        margin-bottom: 25px;
     }
 }
 
