@@ -6512,6 +6512,7 @@ figure.snip1274 .author h5 span {
 nav.navbar.bootsnav ul.nav>li>a:hover,
 nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     color: #f6961e;
+    background-color: #f5f5f5;
 }
 
 .tab-services-area .services-item.insurancetype .nav.nav-pills li {
