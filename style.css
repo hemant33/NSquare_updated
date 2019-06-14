@@ -2470,7 +2470,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     color: #f6961e;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
     text-transform: uppercase;
 }
 
@@ -6486,6 +6486,11 @@ figure.snip1274 .author h5 span {
     height: 233px;
 }
 
+.timelineimg {
+    float: right;
+    height: 50px;
+}
+
 
 /* ============================================================== 
      # Preloader 
@@ -7126,7 +7131,7 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     margin: 0;
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .marrgt20 {
@@ -7358,6 +7363,13 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     .csstylecard {
         height: auto;
         padding: 20px;
+    }
+    .youtubevid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .youtubevid iframe {
+        height: 250px !important;
     }
 }
 
