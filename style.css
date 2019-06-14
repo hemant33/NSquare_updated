@@ -4399,6 +4399,10 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     font-size: 15px;
     padding: 0;
     position: relative;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center
 }
 
 .testimonials-area .testimonials-info span {
@@ -4892,7 +4896,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 }
 
 .statistics-area .info {
-    padding: 80px;
+    padding: 40px;
 }
 
 .statistics-area .info h2 {
@@ -4900,7 +4904,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     position: relative;
     z-index: 1;
     margin-top: -7px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     line-height: 41px;
 }
 
@@ -6464,6 +6468,24 @@ figure.snip1274 .author h5 span {
     text-shadow: 0px 1px #000;
 }
 
+.csstylecard {
+    background: #f6961e;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 0px;
+}
+
+.csstylecard2 {
+    height: 100%;
+    padding: 14px;
+}
+
+.csstylecard3 {
+    height: 233px;
+}
+
 
 /* ============================================================== 
      # Preloader 
@@ -7332,6 +7354,10 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     }
     .datad {
         margin-bottom: 25px;
+    }
+    .csstylecard {
+        height: auto;
+        padding: 20px;
     }
 }
 
