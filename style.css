@@ -2512,6 +2512,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 
 .faq-area .faq-items .acd-items .panel .panel-body {
     border-color: #e7e7e7;
+    background-color: #f6961e21;
 }
 
 .acd-arrow .panel-group.symb .panel-heading a::after {
@@ -5956,7 +5957,7 @@ footer .f-item.newsletter form .input-group-addon button {
     background: url("assets/img/order_boxes.jpg");
     background-size: cover;
     -webkit-filter: blur(1px);
-    filter: blur(1px)
+    filter: blur(1px);
 }
 
 #imgblock2 {
@@ -5975,6 +5976,62 @@ footer .f-item.newsletter form .input-group-addon button {
 
 #imgblock4 {
     background: url("assets/img/user_task_list.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#heimgblock1 {
+    background: url("assets/img/healthcare-patient-engagement.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#heimgblock2 {
+    background: url("assets/img/customer-satisfaction.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#heimgblock3 {
+    background: url("assets/img/patient-information.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#heimgblock4 {
+    background: url("assets/img/case-management.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#heimgblock5 {
+    background: url("assets/img/reports-documents-management.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#heimgblock6 {
+    background: url("assets/img/integration.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#heimgblock7 {
+    background: url("assets/img/field-onsite-service.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#heimgblock8 {
+    background: url("assets/img/healthcare-mobility.jpg");
     background-size: cover;
     -webkit-filter: blur(1px);
     filter: blur(1px);
@@ -7354,7 +7411,15 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     #imgblock1,
     #imgblock2,
     #imgblock3,
-    #imgblock4 {
+    #imgblock4,
+    #heimgblock1,
+    #heimgblock2,
+    #heimgblock3,
+    #heimgblock4,
+    #heimgblock5,
+    #heimgblock6,
+    #heimgblock7,
+    #heimgblock8 {
         display: none;
     }
     .datad {
