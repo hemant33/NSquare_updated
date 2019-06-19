@@ -5936,11 +5936,11 @@ footer .f-item.newsletter form .input-group-addon button {
 
 .ccard {
     display: flex;
-    height: 280px;
+    height: auto;
     width: 400px;
     background-color: #17141d;
     border-radius: 10px;
-    box-shadow: -1rem 0 3rem #000;
+    box-shadow: -1rem 0 2rem #00000080;
     /*   margin-left: -50px; */
     transition: 0.4s ease-out;
     position: relative;
@@ -5963,19 +5963,33 @@ footer .f-item.newsletter form .input-group-addon button {
 }
 
 .title {
-    color: white;
-    font-weight: 300;
+    color: #fff;
+    font-weight: 600;
     position: absolute;
     left: 20px;
-    top: 15px;
+    top: 20px;
+    font-size: 20px;
+    width: 80%;
+    z-index: 100;
+    margin-bottom: 0;
+    line-height: 26px;
+}
+
+.bgoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 85px;
+    width: 100%;
+    background-color: #00081dad;
 }
 
 .bar {
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 20px;
     height: 5px;
-    width: 150px;
+    width: 80%;
 }
 
 .emptybar {
@@ -5996,7 +6010,7 @@ footer .f-item.newsletter form .input-group-addon button {
 }
 
 .ccard:hover .filledbar {
-    width: 120px;
+    width: 200px;
     transition: 0.4s ease-out;
 }
 
@@ -7655,6 +7669,15 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
         height: 250px !important;
     }
     .snip1529 {
+        width: auto;
+    }
+    .ccontainer {
+        display: block;
+    }
+    .ccard:not(:first-child) {
+        margin-left: 0px;
+    }
+    .ccard {
         width: auto;
     }
 }
