@@ -5930,6 +5930,99 @@ footer .f-item.newsletter form .input-group-addon button {
     transition: all 0.2s;
 }
 
+.ccontainer {
+    display: flex;
+}
+
+.ccard {
+    display: flex;
+    height: 280px;
+    width: 400px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+.ccard:not(:first-child) {
+    margin-left: -50px;
+}
+
+.ccard:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+
+.ccard:hover~.card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+
+.title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+}
+
+.emptybar {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+}
+
+.filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0, 154, 217);
+    background: linear-gradient(90deg, rgba(0, 154, 217, 1) 0%, rgba(217, 147, 0, 1) 65%, rgba(255, 186, 0, 1) 100%);
+    transition: 0.6s ease-out;
+}
+
+.ccard:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+}
+
+.circle {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 60px);
+}
+
+.stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+}
+
+.circle svg {
+    fill: #17141d;
+    stroke-width: 2px;
+}
+
+.ccard:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+}
+
 
 /* Hover Effects on Card */
 
@@ -6460,6 +6553,131 @@ figure.snip1274 .author h5 span {
     border-bottom-left-radius: 0;
     border-bottom: 0;
 }
+
+
+/*Life at Nsquare*/
+
+.snip1529 {
+    background-color: #000000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 31.00%;
+    display: inline-block;
+}
+
+.snip1529 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.snip1529 img {
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+    opacity: 0.75;
+}
+
+.snip1529 figcaption {
+    padding: 25px 20px 25px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: #00081d63;
+}
+
+.snip1529 .date {
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    font-weight: 800;
+    min-height: 48px;
+    min-width: 48px;
+    padding: 10px 0;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+}
+
+.snip1529 .date span {
+    display: block;
+    line-height: 14px;
+}
+
+.snip1529 .date .month {
+    font-size: 11px;
+}
+
+.snip1529 h3,
+.snip1529 p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.snip1529 h3 {
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    font-size: 20px;
+    color: #f6961e;
+    margin-top: 0px;
+}
+
+.snip1529 .hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: rgba(236, 188, 46, 0.75);
+    display: flex;
+    font-size: 65px;
+    justify-content: center;
+    opacity: 0;
+}
+
+.snip1529 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.snip1529:hover .hover,
+.snip1529.hover .hover {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    opacity: 1;
+}
+
+.snip1529:hover figcaption,
+.snip1529.hover figcaption {
+    opacity: 0;
+}
+
+.snip1529:hover .date,
+.snip1529.hover .date {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+
+/*Life at Nsquare End*/
 
 .pay_gate_icn {
     width: 62px;
@@ -7435,6 +7653,9 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     }
     .youtubevid iframe {
         height: 250px !important;
+    }
+    .snip1529 {
+        width: auto;
     }
 }
 
