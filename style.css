@@ -5989,7 +5989,7 @@ footer .f-item.newsletter form .input-group-addon button {
     top: 80px;
     left: 20px;
     height: 5px;
-    width: 80%;
+    width: 88%;
 }
 
 .emptybar {
@@ -6010,7 +6010,7 @@ footer .f-item.newsletter form .input-group-addon button {
 }
 
 .ccard:hover .filledbar {
-    width: 200px;
+    width: 100%;
     transition: 0.4s ease-out;
 }
 
@@ -6035,6 +6035,71 @@ footer .f-item.newsletter form .input-group-addon button {
 .ccard:hover .stroke {
     stroke-dashoffset: 100;
     transition: 0.6s ease-out;
+}
+
+.hover.mbtn button {
+    color: #fff;
+    font-size: 16px !important;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f6961e !important;
+}
+
+.activitycard .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.8rem;
+}
+
+.activitycard .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.activitycard .btn {
+    background-color: #F6961E;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.activitycard h2 {
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    font-size: 20px;
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.activitycard p {
+    line-height: 24px;
 }
 
 
@@ -7680,6 +7745,9 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     .ccard {
         width: auto;
     }
+    .activitycard .card {
+        margin-bottom: 25px;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -7707,6 +7775,15 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     }
     .breadcrumb-area h1 {
         line-height: 48px;
+    }
+}
+
+@media only screen and (width: 768px) and (height: 1024px) {
+    .snip1529 {
+        width: 218px;
+    }
+    .ccard {
+        margin-bottom: 45px;
     }
 }
 
