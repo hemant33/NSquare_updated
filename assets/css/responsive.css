@@ -158,7 +158,7 @@
     }
     /* Tab Services */
     .tab-services-area .thumb {
-        min-height: 350px;
+        min-height: auto;
     }
     .tab-services-area .thumb,
     .tab-services-area .services-item {
@@ -602,7 +602,7 @@
     }
     /* Tab Services */
     .tab-services-area .thumb {
-        min-height: 250px;
+        min-height: auto;
     }
     .tab-services-area .thumb,
     .tab-services-area .services-item {
