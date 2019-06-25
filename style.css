@@ -6925,6 +6925,17 @@ figure.snip1274 .author h5 span {
     text-shadow: 0px 1px #000;
 }
 
+.headpara.customhp {
+    width: 80%;
+    float: left;
+}
+
+.headbannerimg {
+    float: right;
+    height: 150px;
+    margin-top: -40px;
+}
+
 .csstylecard {
     background: #f6961e;
     color: #ffff;
@@ -7851,6 +7862,14 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     .activitycard .card {
         margin-bottom: 25px;
     }
+    .headpara.customhp {
+        width: 100%;
+    }
+    .headbannerimg {
+        float: left;
+        height: 100px;
+        margin-top: 30px;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -7868,6 +7887,11 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
         height: 40px;
         width: 40px;
         line-height: 40px;
+    }
+    .headbannerimg {
+        float: right;
+        height: 120px;
+        margin-top: -30px;
     }
 }
 
