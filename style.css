@@ -5461,7 +5461,7 @@ footer .f-item.recent-post li .info {
     color: #cccccc;
     font-size: 14px;
     margin: 0;
-    line-height: 40px;
+    line-height: 20px;
 }
 
 .footer-bottom-menu li {
@@ -5966,10 +5966,8 @@ footer .f-item.newsletter form .input-group-addon button {
     color: #fff;
     font-weight: 600;
     position: absolute;
-    left: 20px;
-    top: 20px;
     font-size: 20px;
-    width: 80%;
+    width: 100%;
     z-index: 100;
     margin-bottom: 0;
     line-height: 26px;
