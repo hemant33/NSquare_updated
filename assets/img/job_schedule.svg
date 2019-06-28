@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="job_schedule" transform="translate(-1847 2253)">
+    <g id="other_erp_system" transform="translate(569 1196)">
+      <rect id="Rectangle_950" data-name="Rectangle 950" width="70" height="70" transform="translate(1278 -3449)" fill="none"/>
+    </g>
+    <g id="time" transform="translate(1852 -2248)">
+      <path id="Path_27104" data-name="Path 27104" d="M30,0A30,30,0,1,0,60,30,30.034,30.034,0,0,0,30,0Zm0,58A28,28,0,1,1,58,30,28.032,28.032,0,0,1,30,58Z" fill="#f6961e"/>
+      <path id="Path_27105" data-name="Path 27105" d="M30,6a1,1,0,0,0-1,1V30H14a1,1,0,0,0,0,2H30a1,1,0,0,0,1-1V7A1,1,0,0,0,30,6Z" fill="#212121"/>
+    </g>
+  </g>
+</svg>
