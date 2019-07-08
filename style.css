@@ -4935,6 +4935,26 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     box-shadow: inherit;
 }
 
+.custstatarea {
+    background-color: #fbe3c5;
+}
+
+.statistics-area.custstatarea .col-md-6 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.statistics-area.custstatarea img {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.statistics-area.custstatarea .col-md-8 {
+    background: white;
+    padding: 20px;
+}
+
 
 /* Tab Services */
 
