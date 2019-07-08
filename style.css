@@ -4870,7 +4870,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     z-index: 1;
     padding: 25px;
     border-radius: 20px;
-    background: #f3f6f8;
+    background: #FFF;
 }
 
 .team-carousel-items .item .info::after {
@@ -5770,7 +5770,7 @@ footer .f-item.newsletter form .input-group-addon button {
 }
 
 .dddisplay {
-    display: table-cell !important;
+    display: block !important;
 }
 
 .mysmallt h5 {
@@ -6325,6 +6325,27 @@ input[type="checkbox"]:checked~.gallerygrid {
 
 #heimgblock8 {
     background: url("assets/img/healthcare-mobility.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#abtimgblock1 {
+    background: url("assets/img/our-vision.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#abtimgblock2 {
+    background: url("assets/img/our-experience.jpg");
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#abtimgblock3 {
+    background: url("assets/img/our-approach.jpg");
     background-size: cover;
     -webkit-filter: blur(1px);
     filter: blur(1px);
@@ -7848,7 +7869,10 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     #heimgblock5,
     #heimgblock6,
     #heimgblock7,
-    #heimgblock8 {
+    #heimgblock8,
+    #abtimgblock1,
+    #abtimgblock2,
+    #abtimgblock3 {
         display: none;
     }
     .datad {
@@ -7887,6 +7911,12 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
         float: left;
         height: 100px;
         margin-top: 30px;
+    }
+    .myteam .team-carousel-items .item .info {
+        text-align: center;
+    }
+    .statistics-area.custstatarea img {
+        margin-top: 10px;
     }
 }
 
