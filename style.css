@@ -4936,7 +4936,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 }
 
 .custstatarea {
-    background-color: #fbe3c5;
+    background-color: #f3f6f8;
 }
 
 .statistics-area.custstatarea .col-md-6 {
@@ -6365,7 +6365,7 @@ input[type="checkbox"]:checked~.gallerygrid {
 
 .datad {
     padding: 25px;
-    background-color: #fafafa;
+    background-color: #fff2e2;
 }
 
 .datad p {
