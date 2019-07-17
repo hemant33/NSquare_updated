@@ -16702,10 +16702,10 @@ nav.bootsnav.navbar-sidebar.bg-dark ul.nav li.dropdown ul.dropdown-menu li a {
 }
 
 .attr-nav ul.cart-list li.total a {
-    background: #2154cf;
-    background: -moz-linear-gradient(top, #2154cf 0, #00eaea 100%);
-    background: -webkit-linear-gradient(top, #2154cf 0, #00eaea 100%);
-    background: linear-gradient(to bottom, #2154cf 0, #00eaea 100%);
+    background: #08B3EC;
+    background: -moz-linear-gradient(top, #08B3EC 0, #00eaea 100%);
+    background: -webkit-linear-gradient(top, #08B3EC 0, #00eaea 100%);
+    background: linear-gradient(to bottom, #08B3EC 0, #00eaea 100%);
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -16925,7 +16925,7 @@ li.close-full-menu {
 
 .attr-nav>ul li.dropdown ul.dropdown-menu {
     margin-top: 0;
-    border-top: 3px solid #2154cf!important
+    border-top: 3px solid #08B3EC!important
 }
 
 .attr-nav>ul>li {
@@ -16954,7 +16954,7 @@ li.close-full-menu {
     text-align: center;
     top: 43%;
     width: 20px;
-    background-color: #2154cf
+    background-color: #08B3EC
 }
 
 .attr-nav>ul>li.dropdown ul.dropdown-menu {
@@ -17036,7 +17036,7 @@ ul.cart-list>li.total>span {
 }
 
 .navbar.bg-dark .top-search {
-    background: #2154cf none repeat scroll 0 0
+    background: #08B3EC none repeat scroll 0 0
 }
 
 .top-search {
@@ -17135,7 +17135,7 @@ body.on-side .body-overlay {
     top: -30px;
     width: 30px;
     z-index: 2;
-    background-color: #2154cf
+    background-color: #08B3EC
 }
 
 .navbar .side .widget li {
@@ -17165,7 +17165,7 @@ body.on-side .body-overlay {
 }
 
 .navbar .side .widget li i {
-    color: #2154cf;
+    color: #08B3EC;
     width: 25px
 }
 
@@ -17201,7 +17201,7 @@ body.on-side .body-overlay {
 }
 
 .side .widget ul.link li a {
-    color: #2154cf;
+    color: #08B3EC;
     display: block;
     font-weight: 700;
     letter-spacing: 1px;
@@ -17242,12 +17242,12 @@ nav.navbar.bootsnav .share ul>li>a {
 }
 
 nav.navbar.bootsnav .share.dark ul>li>a {
-    background-color: #2154cf;
+    background-color: #08B3EC;
     color: #fff
 }
 
 nav.navbar.bootsnav .share ul>li>a:hover {
-    color: #2154cf
+    color: #08B3EC
 }
 
 nav.navbar.bootsnav.navbar-fixed {
@@ -17361,18 +17361,18 @@ nav.navbar.bootsnav {
         padding: 15px
     }
     nav.navbar.bootsnav ul.nav>li.active>a {
-        color: #2154cf
+        color: #08B3EC
     }
     nav.navbar.bootsnav.active-full ul.nav>li>a.active,
     nav.navbar.bootsnav.active-full ul.nav>li>a:hover {
-        background: #2154cf none repeat scroll 0 0!important;
+        background: #08B3EC none repeat scroll 0 0!important;
         color: #fff
     }
     nav.navbar.bootsnav.active-full ul.nav>li.active>a:hover {
         color: #fff
     }
     nav.navbar.bootsnav ul.nav>li>a:hover {
-        color: #2154cf
+        color: #08B3EC
     }
     nav.op-nav.bootsnav ul.nav.navbar-nav li a {
         text-transform: uppercase
@@ -17423,10 +17423,10 @@ nav.navbar.bootsnav {
         width: 100%
     }
     nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
-        color: #2154cf
+        color: #08B3EC
     }
     nav.navbar.bootsnav ul.navbar-left li.dropdown ul.dropdown-menu li a:hover {
-        color: #2154cf
+        color: #08B3EC
     }
     nav.navbar.bootsnav ul.navbar-right li.dropdown.dropdown-left ul.dropdown-menu li a {
         text-align: right
@@ -17498,7 +17498,7 @@ nav.navbar.bootsnav {
         padding-left: 10px
     }
     nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover {
-        color: #2154cf
+        color: #08B3EC
     }
     nav.navbar.bootsnav.on ul.dropdown-menu.megamenu-content .content {
         display: block!important;
@@ -17730,7 +17730,7 @@ nav.navbar.bootsnav {
         color: #fff
     }
     nav.bootsnav.navbar-sidebar ul.nav>li>a:hover {
-        color: #2154cf
+        color: #08B3EC
     }
     nav.bootsnav.navbar-sidebar ul.nav>li.dropdown>a:after {
         float: right
@@ -17899,7 +17899,7 @@ nav.navbar.bootsnav {
     }
     nav.navbar.bootsnav ul.nav li.dropdown>ul.dropdown-menu li:hover>a {
         background-color: transparent!important;
-        color: #2154cf!important
+        color: #08B3EC!important
     }
     nav.bg-dark.navbar.bootsnav ul.nav li.dropdown>ul.dropdown-menu li a {
         background: transparent none repeat scroll 0 0!important;
