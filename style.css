@@ -1325,6 +1325,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     text-transform: capitalize;
     font-size: 40px;
     text-transform: uppercase;
+    margin-top: 10px;
 }
 
 .breadcrumb-area .breadcrumb li.active {
@@ -2034,7 +2035,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
 }
 
 .service-item .overlay {
-    background: rgba(8, 179, 236, 0.8);
+    background: rgba(8, 179, 236, 0.95);
     height: 100%;
     left: 0;
     opacity: 1;
@@ -6120,6 +6121,11 @@ footer .f-item.newsletter form .input-group-addon button {
     line-height: 24px;
 }
 
+.mainbanbg {
+    background-color: #00000066;
+    padding: 35px;
+}
+
 
 /* Image Gallery Start */
 
@@ -6359,17 +6365,26 @@ input[type="checkbox"]:checked~.gallerygrid {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #08B3EC;
+    color: #FFF;
     text-transform: uppercase;
 }
 
 .datad {
     padding: 25px;
-    background-color: #ebfaff;
+    background-color: #a2e8ff3b;
+    background: rgba(73, 155, 234, 1);
+    background: -moz-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(79, 214, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73, 155, 234, 1)), color-stop(100%, rgba(79, 214, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(79, 214, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(79, 214, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(79, 214, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(73, 155, 234, 1) 0%, rgba(79, 214, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#4fd6ff', GradientType=1);
 }
 
 .datad p {
     margin: 0;
+    color: #FFF;
 }
 
 
@@ -6690,7 +6705,7 @@ figure.snip1274 .author h5 span {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    background-color: #fafafa;
+    background-color: #f3f6f8;
 }
 
 #myflowlist {
@@ -6977,6 +6992,14 @@ figure.snip1274 .author h5 span {
 
 .csstylecard {
     background: #08B3EC;
+    background: rgba(73, 155, 234, 1);
+    background: -moz-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(79, 214, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73, 155, 234, 1)), color-stop(100%, rgba(79, 214, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(79, 214, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(79, 214, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(79, 214, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(73, 155, 234, 1) 0%, rgba(79, 214, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#4fd6ff', GradientType=1);
     color: #ffff;
     display: flex;
     align-items: center;
@@ -7917,6 +7940,10 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
     }
     .statistics-area.custstatarea img {
         margin-top: 10px;
+    }
+    .mainbanbg {
+        background-color: transparent;
+        padding: 0px;
     }
 }
 
