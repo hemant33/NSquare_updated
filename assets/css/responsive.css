@@ -84,6 +84,9 @@
         line-height: 48px;
         font-size: 42px;
     }
+    #custh1 {
+        font-size: 42px;
+    }
     .top-bar-area .topbar-social .text-right {
         display: none;
         text-align: center;
@@ -351,7 +354,7 @@
     body,
     .banner-area,
     .banner-area div {
-        height: 380px;
+        height: 100%;
     }
     .container {
         width: 94%;
@@ -475,7 +478,10 @@
     .banner-area .item h1 {
         font-size: 30px;
         line-height: 40px !important;
-        margin-bottom: 10px !important;
+        margin-bottom: 30px !important;
+    }
+    #custh1 {
+        font-size: 30px;
     }
     .banner-area .carousel.slide .carousel-inner.text-uppercase .item .content h1 {
         font-size: 30px;

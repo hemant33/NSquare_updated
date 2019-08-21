@@ -707,7 +707,7 @@ body,
 }
 
 .banner-area .item h1 {
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -747,8 +747,8 @@ body,
 .banner-area .carousel.slide .item .content h1 {
     font-weight: 700;
     letter-spacing: 0;
-    margin-bottom: 20px;
-    line-height: 55px;
+    margin-bottom: 30px;
+    line-height: 64px;
 }
 
 .banner-area .carousel.slide .carousel-inner.text-uppercase .item .content h1 {
@@ -1323,7 +1323,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     font-weight: 600;
     margin: 0;
     text-transform: capitalize;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -5729,8 +5729,12 @@ footer .f-item.newsletter form .input-group-addon button {
 ================================================================== */
 
 #crm-logo {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     width: 180px;
+}
+
+#custh1 {
+    font-size: 48px;
 }
 
 #bootcarousel {
@@ -7734,7 +7738,7 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 
 @media (max-width: 800px) {
     .banner-area.homepage {
-        height: auto;
+        height: 100%;
     }
     .feature_inner .focus_text {
         font-size: 25px !important;
