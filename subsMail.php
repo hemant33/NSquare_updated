@@ -6,10 +6,8 @@ require 'PHPMailerAutoload.php';
 
 
 $name = $_POST['name'];
-$phone = $_POST['phone'];
 $email = $_POST['email'];
-$comments = $_POST['comments'];
-$capchaCode = $_POST["g-recaptcha-response"];
+
 
 // var_dump($_POST); die;
 
@@ -17,39 +15,16 @@ if ($name == '') {
 	echo "<div class='alert alert-danger'>";
 	echo "<p>Name Field Is Required</p>";
 	echo "</div>";
-} else if ($phone == '') {
-	echo "<div class='alert alert-danger'>";
-	echo "<p>Phone Field Is Required</p>";
-	echo "</div>";
-} else if ($email == '') {
+}  else if ($email == '') {
 	echo "<div class='alert alert-danger'>";
 	echo "<p>Email Field Is Required</p>";
 	echo "</div>";
-} else if ($comments == '') {
-	echo "<div class='alert alert-danger'>";
-	echo "<p>Comments Field Is Required</p>";
-	echo "</div>";
-} else if (!preg_match("/^[_.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+.)+[a-zA-Z]{2,6}$/i", $email)) {
+}  else if (!preg_match("/^[_.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+.)+[a-zA-Z]{2,6}$/i", $email)) {
 	echo "<div class='alert alert-danger'>";
 	echo "<p>Enter Valid Email Id</p>";
 	echo "</div>";
 } else {
-
-	// Validate reCAPTCHA box 
-	if (isset($_POST["g-recaptcha-response"]) && !empty($_POST["g-recaptcha-response"])) {
-		
-		// Google reCAPTCHA API secret key 
-		$secretKey = '6LdrNKIUAAAAADT6SR_UeccrZovElO1oDKMmyaph';
-
-		// Verify the reCAPTCHA response 
-		$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
-
-		// Decode json data 
-		$responseData = json_decode($verifyResponse);
-		// echo $responseData; die;
-
-		// If reCAPTCHA response is valid 
-		if ($responseData->success) {
+   
 
 			$to = "info@nsquarexperts.com";
 			$subject = "Contact Enquiry";
@@ -65,9 +40,7 @@ if ($name == '') {
 			$body = "Dear Team,<br>
 				we have below enquiry<br>
 				Name : " . $_POST['name'] . "<br>
-				Mobile :	" . $_POST['phone'] . "<br>
 				Email :	" . $_POST['email'] . "<br>
-				Comment :	" . $_POST['comments'] . "<br>
 				<br><br> Thank You.";
 
 			//echo "fsdfsfsdfdsfdsfs ".$_POST['enquiry_type'];
@@ -122,38 +95,4 @@ if ($name == '') {
 			$mail->Subject = $subject;
 			$mail->Body    = $body;
 			//$mail->SMTPDebug = 2;
-
-			if (!$mail->send()) {
-				// echo 'Message could not be sent.';
-				//echo 'Mailer Error: ' . $mail->ErrorInfo;
-				//header('location:contact.html');
-				//header('location:contact.html?msg=sentmsgerror');
-			} else {
-				// echo 'Message has been sent';
-				// if($enquiry_type == 'contact_form'){
-				// 	header('location:contact.html?msg=sent');
-				// }else if($enquiry_type == 'pharmceutials_form'){
-				// 	header('location:pharmceutials.html?msg=sent');
-				// }else if($enquiry_type == 'healthcare_form'){
-				// 	header('location:healthcare.html?msg=sent');
-				// }else if($enquiry_type == 'professionalservices_form'){
-				// 	header('location:professional_services.html?msg=sent');
-				// }else if($enquiry_type == 'banking_form'){
-				// 	header('location:banking.html?msg=sent');
-				// }else if($enquiry_type == 'education_form'){
-				// 	header('location:education.html?msg=sent');
-				// }
-
-				$name = $_POST['name'];
-				echo "<div class='alert alert-success'> <h3>Email Sent Successfully.</h3> <p>Thank you <strong>$name</strong>.</p> </div>";
-				//header('Location:contact.html?msg=sent');
-
-				//header('location:thankyou.html');
-			}
-		}
-	} else {
-		$statusMsg = 'Please check on the reCAPTCHA box.';
-
-		echo "<div class='alert alert-danger'> <p>$statusMsg</p> </div>";
-	}
 }
