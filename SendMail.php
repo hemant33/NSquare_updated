@@ -50,7 +50,6 @@ if ($name == '') {
 
 		// If reCAPTCHA response is valid 
 		if ($responseData->success) {
-
 			$to = "info@nsquarexperts.com";
 			$subject = "Contact Enquiry";
 			//  $body="Dear Team,<br>
@@ -69,7 +68,7 @@ if ($name == '') {
 				Email :	" . $_POST['email'] . "<br>
 				Comment :	" . $_POST['comments'] . "<br>
 				<br><br> Thank You.";
-
+			
 			//echo "fsdfsfsdfdsfdsfs ".$_POST['enquiry_type'];
 
 			//$enquiry_type=$_POST['enquiry_type'];
@@ -105,11 +104,13 @@ if ($name == '') {
 			//$mail->Port = 465; // or 587
 			//$mail->Port = 587; // or 587
 			$mail->Host = 'smtp.office365.com';
+			
 			$mail->SMTPAuth = true; // turn on SMTP authentication
 			//$mail->Username = 'nsquarexperts28@gmail.com';                 // SMTP username
 			//$mail->Password = 'nsquare2017';                           // SMTP password
 			$mail->Username = 'info@nsquarexperts.com';                 // SMTP username
 			$mail->Password = 'NS-022@mail';                           // SMTP password
+			$mail->SMTPSecure = 'tls';
 
 			$mail->From 	= 'info@nsquarexperts.com';
 			$mail->FromName = 'Nsquare Xperts Info';

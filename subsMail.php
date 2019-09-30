@@ -7,9 +7,7 @@ require 'PHPMailerAutoload.php';
 
 $name = $_POST['name'];
 $email = $_POST['email'];
-
-
-// var_dump($_POST); die;
+$text = $_POST['text'];
 
 if ($name == '') {
 	echo "<div class='alert alert-danger'>";
@@ -19,13 +17,13 @@ if ($name == '') {
 	echo "<div class='alert alert-danger'>";
 	echo "<p>Email Field Is Required</p>";
 	echo "</div>";
-}  else if (!preg_match("/^[_.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+.)+[a-zA-Z]{2,6}$/i", $email)) {
+} else if (!preg_match("/^[_.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+.)+[a-zA-Z]{2,6}$/i", $email)) {
 	echo "<div class='alert alert-danger'>";
 	echo "<p>Enter Valid Email Id</p>";
 	echo "</div>";
 } else {
-   
 
+		// If reCAPTCHA response is valid 
 			$to = "info@nsquarexperts.com";
 			$subject = "Contact Enquiry";
 			//  $body="Dear Team,<br>
@@ -40,9 +38,10 @@ if ($name == '') {
 			$body = "Dear Team,<br>
 				we have below enquiry<br>
 				Name : " . $_POST['name'] . "<br>
-				Email :	" . $_POST['email'] . "<br>
+                Email :	" . $_POST['email'] . "<br>
+                Message :	" . $_POST['text'] . "<br>
 				<br><br> Thank You.";
-
+			
 			//echo "fsdfsfsdfdsfdsfs ".$_POST['enquiry_type'];
 
 			//$enquiry_type=$_POST['enquiry_type'];
@@ -78,11 +77,13 @@ if ($name == '') {
 			//$mail->Port = 465; // or 587
 			//$mail->Port = 587; // or 587
 			$mail->Host = 'smtp.office365.com';
+			
 			$mail->SMTPAuth = true; // turn on SMTP authentication
 			//$mail->Username = 'nsquarexperts28@gmail.com';                 // SMTP username
 			//$mail->Password = 'nsquare2017';                           // SMTP password
 			$mail->Username = 'info@nsquarexperts.com';                 // SMTP username
 			$mail->Password = 'NS-022@mail';                           // SMTP password
+			$mail->SMTPSecure = 'tls';
 
 			$mail->From 	= 'info@nsquarexperts.com';
 			$mail->FromName = 'Nsquare Xperts Info';
@@ -95,4 +96,34 @@ if ($name == '') {
 			$mail->Subject = $subject;
 			$mail->Body    = $body;
 			//$mail->SMTPDebug = 2;
+
+			if (!$mail->send()) {
+				// echo 'Message could not be sent.';
+				//echo 'Mailer Error: ' . $mail->ErrorInfo;
+				//header('location:contact.html');
+				//header('location:contact.html?msg=sentmsgerror');
+			} else {
+				// echo 'Message has been sent';
+				// if($enquiry_type == 'contact_form'){
+				// 	header('location:contact.html?msg=sent');
+				// }else if($enquiry_type == 'pharmceutials_form'){
+				// 	header('location:pharmceutials.html?msg=sent');
+				// }else if($enquiry_type == 'healthcare_form'){
+				// 	header('location:healthcare.html?msg=sent');
+				// }else if($enquiry_type == 'professionalservices_form'){
+				// 	header('location:professional_services.html?msg=sent');
+				// }else if($enquiry_type == 'banking_form'){
+				// 	header('location:banking.html?msg=sent');
+				// }else if($enquiry_type == 'education_form'){
+				// 	header('location:education.html?msg=sent');
+				// }
+
+				$name = $_POST['name'];
+				echo "<div class='alert alert-success'> <h3>Email Sent Successfully.</h3> <p>Thank you <strong>$name</strong>.</p> </div>";
+				//header('Location:contact.html?msg=sent');
+
+				//header('location:thankyou.html');
+			}
+		
+	
 }

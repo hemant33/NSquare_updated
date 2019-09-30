@@ -5728,6 +5728,14 @@ footer .f-item.newsletter form .input-group-addon button {
    # Mystyles Edit
 ================================================================== */
 
+#subsmodal .modal-content {
+    padding: 20px;
+}
+
+#subsmodal .modal-dialog {
+    margin: 100px auto;
+}
+
 #crm-logo {
     padding-bottom: 30px;
     width: 180px;
@@ -7824,6 +7832,9 @@ nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
 /* My responsive Styles*/
 
 @media (max-width: 768px) {
+    #subsmodal .modal-dialog {
+        margin: 30px auto;
+    }
     .social {
         float: right;
         margin: 11px 0 15px;

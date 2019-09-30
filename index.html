@@ -171,19 +171,22 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title" id="myModalLabel">Lets talk about your needs</h3>
+                    <h3 class="modal-title heading" id="myModalLabel"><strong>Let's Talk About Your Business</strong></h3>
                 </div>
                 <form method="POST">
                     <div class="modal-body">
-
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="subEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                            <label for="exampleInputEmail1">Email Address</label>
+                            <input type="email" class="form-control" id="subEmail" aria-describedby="emailHelp" placeholder="Enter Email" required />
                             <small class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputName">Name</label>
-                            <input type="text" class="form-control" id="subName" placeholder="Your Name">
+                            <input type="text" class="form-control" id="subName" placeholder="Enter Name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Your Requirement</label>
+                            <textarea class="form-control" id="subTextarea" rows="3"></textarea>
                         </div>
 
                     </div>
