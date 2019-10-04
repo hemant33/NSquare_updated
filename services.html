@@ -32,7 +32,7 @@
       <script src="assets/js/html5/respond.min.js"></script>
     <![endif]-->
 
-    <script type="text/javascript">
+    <script async type="text/javascript">
         //Google Analytics Asynchronous Codes starts 
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -58,6 +58,82 @@
     <!-- Preloader Start -->
     <div class="se-pre-con"></div>
     <!-- Preloader Ends -->
+
+    <!-- Modal -->
+    <button class="btn btn-theme" id="flotbtn" type="button" data-toggle="modal" data-target="#subsmodal">
+            Connect&nbsp;&nbsp;<i class="fas fa-envelope-open"></i>
+    </button>
+    <div class="modal fade" id="subsmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title heading" id="myModalLabel"><strong>Let's Talk About Your Business</strong></h3>
+                </div>
+                <form method="POST">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email Address</label>
+                            <input type="email" class="form-control" id="subEmail" aria-describedby="emailHelp" placeholder="Enter Email" required />
+                            <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputName">Name</label>
+                            <input type="text" class="form-control" id="subName" placeholder="Enter Name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Your Requirement</label>
+                            <textarea class="form-control" id="subTextarea" rows="3"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-theme effect btn-sm" onclick="subsEmail()" data-dismiss="modal">Get in Touch</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--- -->
+
+    <!-- Modal -->
+    <button class="btn btn-theme" id="flotbtn" type="button" data-toggle="modal" data-target="#subsmodal">
+            Connect&nbsp;&nbsp;<i class="fas fa-envelope-open"></i>
+    </button>
+    <div class="modal fade" id="subsmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title heading" id="myModalLabel"><strong>Let's Talk About Your Business</strong></h3>
+                </div>
+                <form method="POST">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email Address</label>
+                            <input type="email" class="form-control" id="subEmail" aria-describedby="emailHelp" placeholder="Enter Email" required />
+                            <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputName">Name</label>
+                            <input type="text" class="form-control" id="subName" placeholder="Enter Name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Your Requirement</label>
+                            <textarea class="form-control" id="subTextarea" rows="3"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-theme effect btn-sm" onclick="subsEmail()" data-dismiss="modal">Get in Touch</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--- -->
 
     <!-- Header 
     ============================================= -->

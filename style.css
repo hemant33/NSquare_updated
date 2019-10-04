@@ -5732,6 +5732,15 @@ footer .f-item.newsletter form .input-group-addon button {
     padding: 20px;
 }
 
+#flotbtn {
+    position: fixed !important;
+    bottom: 10%;
+    right: -40px;
+    z-index: 9999;
+    transform: rotate(-90deg);
+    padding: 5px;
+}
+
 #subsmodal .modal-dialog {
     margin: 100px auto;
 }
@@ -5746,7 +5755,8 @@ footer .f-item.newsletter form .input-group-addon button {
 }
 
 #bootcarousel {
-    background: url(assets/img/nsquare_video.gif) no-repeat center center fixed;
+    background: url(assets/img/main-bg.jpg) no-repeat center center fixed;
+    /* background: url(assets/img/nsquare_video.gif) no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
