@@ -67,7 +67,9 @@ if ($name == '') {
 				Mobile :	" . $_POST['phone'] . "<br>
 				Email :	" . $_POST['email'] . "<br>
 				Comment :	" . $_POST['comments'] . "<br>
-				<br><br> Thank You.";
+				<br><br> Thank You.
+					" ;
+				
 			
 			//echo "fsdfsfsdfdsfdsfs ".$_POST['enquiry_type'];
 
@@ -115,7 +117,7 @@ if ($name == '') {
 			$mail->From 	= 'info@nsquarexperts.com';
 			$mail->FromName = 'Nsquare Xperts Info';
 
-			$mail->addAddress($to, ''); // Add a recipient
+			$mail->addAddress($to, 'kirit@nsquarexperts.com'); // Add a recipient
 			//$mail->addBCC('pratik@nsquarexperts.com');
 			$mail->addBCC('pushkar.tamhane@nsquarexperts.com');
 

@@ -88,7 +88,7 @@ if ($name == '') {
 			$mail->From 	= 'info@nsquarexperts.com';
 			$mail->FromName = 'Nsquare Xperts Info';
 
-			$mail->addAddress($to, ''); // Add a recipient
+			$mail->addAddress($to, 'kirit@nsquarexperts.com'); // Add a recipient
 			//$mail->addBCC('pratik@nsquarexperts.com');
 			$mail->addBCC('pushkar.tamhane@nsquarexperts.com');
 
